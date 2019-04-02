@@ -139,4 +139,12 @@ run_me(
     }
 );
 
+run_me(
+    {
+        args => [ map { { $_ => 'name' } } qw/ min max sum count /],
+        sql  => 'SELECT me.name, MIN(me.name), MAX(me.name), SUM(me.name), COUNT(me.name) FROM artist me GROUP BY me.name ORDER BY me.name',
+        as   => ['me.name', map { "name_$_" } qw/ min max sum count / ],
+    }
+);
+
 done_testing;
