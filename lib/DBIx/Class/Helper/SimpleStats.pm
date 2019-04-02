@@ -55,6 +55,16 @@ simple aggregate queries.
 The simplest usage is to pass a single column name, and obtain a count
 of rows for each value of that column.
 
+However, you could specify multiple columns or functions, and optional
+column names:
+
+  $rs->simple_stats(
+    { min => 'cost' },
+    { max => 'cost' },
+    { sum => 'cost',   -as => 'total_cost' },
+    { count => 'cost', -as => 'num_purchases' },
+  );
+
 =cut
 
 sub simple_stats {
