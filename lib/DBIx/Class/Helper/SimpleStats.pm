@@ -52,6 +52,12 @@ is roughly equivalent to
 This is a simple helper method for L<DBIx::Class> resultsets to run
 simple aggregate queries.
 
+=cut
+
+=method C<simple_stats>
+
+  my $stats_rs => $rs->simple_stats( @columns );
+
 The simplest usage is to pass a single column name, and obtain a count
 of rows for each value of that column.
 
