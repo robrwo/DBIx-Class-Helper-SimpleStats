@@ -10,7 +10,7 @@ use warnings;
 use base qw( DBIx::Class );
 
 use Carp;
-use List::Util qw/ uniqstr /;
+use List::Util 1.45 qw/ uniqstr /;
 use Ref::Util qw/ is_plain_hashref is_ref /;
 
 # RECOMMEND PREREQ: Ref::Util::XS
