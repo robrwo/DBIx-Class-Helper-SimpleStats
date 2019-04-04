@@ -1,4 +1,3 @@
-requires "Carp" => "0";
 requires "DBIx::Class" => "0";
 requires "List::Util" => "1.45";
 requires "Ref::Util" => "0";
