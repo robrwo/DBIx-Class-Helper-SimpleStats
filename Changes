@@ -1,4 +1,6 @@
 Revision history for {{$dist->name}}:
 
 {{$NEXT}}
+
+v0.1.0    2019-04-04 13:44:55+01:00 Europe/London
  - Initial release.
