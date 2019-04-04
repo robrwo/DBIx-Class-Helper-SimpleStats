@@ -1,8 +1,11 @@
 Revision history for {{$dist->name}}:
 
 {{$NEXT}}
+  [Documentation]
+  - Fixed formatting in Changes.
+
   [Other Changes]
   - Removed redundant prerequisites.
 
 v0.1.0    2019-04-04 13:44:55+01:00 Europe/London
- - Initial release.
+  - Initial release.
