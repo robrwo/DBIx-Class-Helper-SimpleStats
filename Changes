@@ -4,6 +4,9 @@ Revision history for {{$dist->name}}:
   [Documentation]
   - Fixed formatting in Changes.
 
+  [Tests]
+  - Add diagnostics for CPAN Testers.
+
   [Other Changes]
   - Removed redundant prerequisites.
 
