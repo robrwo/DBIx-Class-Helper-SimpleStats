@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}:
 
 {{$NEXT}}
+  [Other Changes]
+  - Switch to use namespace::clean.
 
 v0.1.2    2019-04-06 11:19:31+01:00 Europe/London
   [Tests]
